@@ -1,0 +1,2 @@
+num_classes,total_images,min_images_per_class,max_images_per_class,imbalance_ratio,unique_image_sizes,image_formats
+15,20638,152,3208,21.105263157894736,"{(256, 256): 15}",['JPEG']

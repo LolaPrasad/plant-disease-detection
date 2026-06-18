@@ -1,0 +1,9 @@
+defaults:
+  - base
+
+model:
+  name: mobilenetv2
+  pretrained: true
+  input_size: 224
+  freeze_backbone_epochs: 0
+  dropout: 0.2

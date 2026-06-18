@@ -1,0 +1,9 @@
+defaults:
+  - base
+
+model:
+  name: efficientnetb0
+  pretrained: true
+  input_size: 224
+  freeze_backbone_epochs: 0   # fine-tune end-to-end from the start
+  dropout: 0.3
